@@ -3,8 +3,56 @@
     --text-color: #837E9F;
     --bg-cards: #302F3D;
     --bg-techs: #CB92B1;
+    --border-cards: 20px;
   }
 *{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 93.75%;
+}
+
+body{
+    background: var(--body-bg-color);
     font-family: 'Merriweather Sans', sans-serif;
     font-family: 'Poppins', sans-serif;
+    color:var(--text-color);
+}
+.container{
+    
+    width: 90vw;
+    margin: 40px
+}
+/*--------------------------------------------PERFIL-------*/
+
+header{ 
+    height: 292px;
+    width: 348px;
+    background: var(--bg-cards);
+    position: absolute;
+    text-align: center;
+    border-radius: var(--border-cards);
+}
+header img{
+    width: 45%;
+    height: 45%;
+    border-radius: 50%;
+}
+.perfil{
+    padding: 0;
+    margin: 32px;
+}
+/*-------------------------------------------LINKS-------*/
+/*-------------------------------------------TITULOS-----*/
+h1{
+    font-size: 23px;
+}
+h2{
+    font-size: 20px;
+}
+h3{
+    font-size: 18px;
 }
