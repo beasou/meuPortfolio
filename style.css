@@ -47,17 +47,51 @@ header img{
 }
 /*-------------------------------------------LINKS-------*/
 main{
-    margin-top: 40px;
+    margin-top: 30px;
     height: 292px;
     width: 348px;
-    display: column;
 }
 .links{
+    height: 292px;
+    width: 348px;
     display:flex;
     background: var(--bg-cards);
     text-align: center;
     border-radius: var(--border-cards);
+    align-items: center;
+    justify-content: center;
+    text-align: left;
 }
+.link {
+    list-style-type: none;
+}
+
+li a{
+    text-decoration: none;
+    color: var(--text-color);
+    font-size: 12px;
+}
+li img{
+    margin-right: 20px;
+}
+
+/*---------------------------------------LISTA-TECNOLOGIAS*/
+section{
+    height: 292px;
+    width: 348px;
+    background: var(--bg-cards);
+    text-align: center;
+    border-radius: var(--border-cards);
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    
+}
+.technologies{
+    margin-top: 30px;
+}
+/*-------------------------------------------LISTAS------*/
+
 /*-------------------------------------------TITULOS-----*/
 h1{
     font-size: 23px;
