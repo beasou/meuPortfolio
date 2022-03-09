@@ -42,11 +42,15 @@ h2{
 h3{
     font-size: 18px;
 }
+h4{
+    font-weight: normal;
+    font-size: 14px;
+}
 /*--------------------------------------------PERFIL-------*/
 .perfil{ 
     text-align: center;
 }
-.perfil img{
+.perfil img, .post img{
     width: 45%;
     height: 45%;
     border-radius: 50%;
@@ -175,9 +179,23 @@ section{
 .post{
     width: 100%;
     display:flex;
-
+    align-items: flex-start;
+    justify-content: flex-start;
 }
-
+.post img{
+    width: 128px;
+    margin-bottom: 11px;
+}
+.description{
+    margin-left: 20px;
+}
+.description p{
+    font-size: 14px;
+    line-height: 18px;
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 11px;
+}
 /*-------------------------------------------FOOTER------*/
 footer{
     display: flex;
@@ -186,6 +204,5 @@ footer{
     height: 100%;
     align-items: center;
     justify-content: center;
-    font-size: 14px;
     line-height: 20px;
 }
