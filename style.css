@@ -33,16 +33,20 @@ main{
 /*-------------------------------------------TITULOS-----*/
 h1{
     font-size: 23px;
-    
 }
 h2{
     font-size: 20px;
-    text-align: left;
+    
 }
 h3{
-    font-size: 18px;
+    font-size: 20px;
+    text-align: left;
+    margin-bottom: 20px;
 }
 h4{
+    font-size: 18px;
+}
+h5{
     font-weight: normal;
     font-size: 14px;
 }
@@ -64,13 +68,25 @@ h4{
 .links ul{
     list-style-type: none;
 }
+a{
+    display: flex;
+    align-items: center;
+}
 
 li a{
     text-decoration: none;
     color: var(--text-color);
-    font-size: 12px;
+    font-size: 13px;
 }
+li{
+    margin-bottom: 20px;
+}
+li:last-child{
+    margin-bottom: 0px;
+}
+
 li img{
+    width: 24px;
     margin-right: 20px;
 }
 
