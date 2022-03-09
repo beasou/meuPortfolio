@@ -45,7 +45,7 @@ h3{
 h4{
     font-size: 18px;
 }
-h5{
+h5, p{
     font-weight: normal;
     font-size: 14px;
 }
@@ -53,10 +53,18 @@ h5{
 .perfil{ 
     text-align: center;
 }
+.perfil img{
+    border: 3px solid #00FF00;
+    box-sizing: border-box;
+}
 .perfil img, .post img{
     width: 45%;
     height: 45%;
-    border-radius: 50%;
+    border-radius: 50%; 
+}
+.perfil p{
+    font-size: 13px;
+    line-height: 16px;  
 }
 /*-------------------------------------------LINKS-------*/
 .links{
@@ -75,7 +83,7 @@ a{
 li a{
     text-decoration: none;
     color: var(--text-color);
-    font-size: 13px;
+    font-size: 12px;
 }
 li{
     margin-bottom: 20px;
@@ -164,7 +172,6 @@ section{
 }
 .project h4{
     margin-left: 17px;
-
 }
 
 .title{
@@ -222,4 +229,5 @@ footer{
     align-items: center;
     justify-content: center;
     line-height: 20px;
+    margin-bottom: 20px;
 }
