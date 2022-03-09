@@ -24,7 +24,6 @@ body{
 }
 .container{
     display: flex;
-    width: 100%;
     margin: 40px;
 }
 main{
@@ -132,9 +131,9 @@ section{
 /*-------------------------------------------CONTEUDO----*/
 /*-------------------------------------------TITULOS-----*/
 .content{
-    margin-right: 40px;
     margin-left: 60px;
     align-items: center;
+    width: 90%;
 }
 .my-projetcs{
     display: flex;
@@ -161,7 +160,7 @@ section{
     align-items: center;
     position: absolute;
 }
-.project h3{
+.project h4{
     margin-left: 17px;
 
 }
