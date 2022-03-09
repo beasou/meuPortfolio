@@ -100,6 +100,7 @@ section{
     padding: 30px;
     margin-bottom: 30px;
     width: 348px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
 .technologies li{
     display:flex;
@@ -143,6 +144,7 @@ section{
     justify-content: space-between;
     padding: 30px;
     margin-bottom: 30px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
 /*------------------------------------------PROJETOS-----*/
 .projects{
