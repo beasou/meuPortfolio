@@ -1,6 +1,6 @@
 # Portfolio Pessoal
 
-* Projeto de criação de um portifólio pessoal.
+* Projeto de criação de um portfólio pessoal.
 
 ![Captura de tela de 2022-03-14 18-37-16](https://user-images.githubusercontent.com/8356862/158266362-19a1b189-3987-4fcb-ad5e-78ba39b3a229.png)
   
